@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>LoginPage</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+	<!--======fa fa icons and google fonts======-->
+	<script src="https://use.fontawesome.com/374fc959b5.js"></script>
+	
+	<style type="text/css">
+		body,html
+		{
+			height: 100%;
+			background: #0390fc;
+			margin: 0;
+			font-family: 'Poppins';
+		}
+		.container
+		{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			padding: 15px;
+			transform: translate(-50%,-50%);
+			background: #fff;
+			border-radius: 5px;
+			width: 350px;
+			box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.37);
+			text-align: center;
+		}
+		.form1
+		{
+			text-align: center;
+
+		}
+		.form1 input
+		{
+			padding: 10px;
+			margin: 5px;
+			border-radius: 10px;
+			outline: none;
+			color: #0390fc;
+			border: 2px solid #eee;
+			background: #eee;
+			width: 85%;
+			transition-duration: 0.4s ease;
+			font-size: 14px;
+			font-family: 'Poppins';
+			transition: 0.5s all;
+
+		}
+		.form1 input:hover
+		{
+			border: 2px solid #0390fc;
+		}
+		
+		.form1 .submit
+		{
+			background: #0390fc;
+			width: 30%;
+			color: #fff;
+			float: right;
+			font-size: 15px;
+			cursor: pointer;
+			transition: 0.5s all;
+		}
+		.form1 .submit:hover
+		{
+			box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.37);
+		}
+		.socialbtn
+		{
+			padding: 20px;
+			margin: 20px;
+			margin-top: 40px;
+
+		}
+		.socialbtn .btn
+		{
+			padding: 10px;
+			border-radius: 20px;
+			margin: 10px;
+			outline: none;
+			transition: 0.5s all;
+			border: 1px solid #eee;
+			cursor: pointer;
+			width: 80%;
+			font-size: 14px;
+			font-family: 'Poppins';
+		}
+
+		.socialbtn .btn:hover
+		{
+			background: #000;
+			color: #fff;
+
+		}
+		p 
+		{
+			color: #999;
+			font-family: 'Poppins';
+		}
+		p a 
+		{
+			text-decoration: none;
+			color: #fff;
+			background: #0390fc;
+			padding: 5px;
+			border-radius: 25px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h3>Welcome Back!</h3>
+		<form class="form1">
+			<input type="text" name="" placeholder="Mobile or Email">
+			<br>
+			<input type="password" name="" placeholder="Password">
+			<br>
+			<input type="button" name="" value="submit" class="submit">
+		</form>
+
+		<div class="socialbtn">
+			<hr >
+			<button class="btn google"><span><i class="fa fa-google"></i></span>&nbsp; Sign in with Google </button><br>
+			<button class="btn fb"><span><i class="fa fa-yahoo"></i></span>&nbsp; Sign in with yahoo</button><br>
+			<button class="btn apple"><span><i class="fa fa-apple"></i></span>&nbsp; Sign in with Apple</button>
+
+		</div>
+		<p>Not Registed Yet ? <a href="#">Sign Up.</a> </p>
+	</div>
+</body>
+</html>
